@@ -1,5 +1,5 @@
 body {
-  font-family: fantasy;, sans-serif;
+  font-family: sans-serif;
   max-width: 70rem;
   margin-left: 10px;
   margin-right: 1opx;
@@ -34,7 +34,6 @@ img {
 }
 
 h1 {
-  font-style: bold;
   font-size: 30px;
 }
 
@@ -48,6 +47,7 @@ p {
   font-size: 15px;
   color: black;
   text-align: center;
+  font-style: initial;
 }
 
 .otherimg {
@@ -62,7 +62,7 @@ p {
 h3 {
   color: white;
   text-align: center;
-  font-style: italic;
+  font-style: initial;
 
 h4 {text-align: center}
 
