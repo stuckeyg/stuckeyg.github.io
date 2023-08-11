@@ -54,13 +54,14 @@ body{
     
 }
 .article-container{
-    max-width: 500px;
+    max-width: 550px;
     margin: 0 auto;
     padding: 0px 20px;
 }
 .paragraph{
     font-size: 18px;
     line-height: 1.6;
+    font-family: EB Garmond;
 }
 .hugeLetter {
     font-size: 60px;
@@ -71,7 +72,7 @@ body{
     line-height: 0.8;
   }
 .image{
-    max-width: 550px;
+    max-width: 500px;
     margin: 0 auto;
     padding: 0px;
 }
@@ -87,7 +88,7 @@ body{
 }
 .footerClass{
     max-width:100%;
-    height: 10rem;
+    height: 50rem;
     background-color: #d2d0d0;
     text-align: center;
     font-size: 30px;
