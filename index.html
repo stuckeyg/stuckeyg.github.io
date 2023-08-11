@@ -2,15 +2,22 @@
 <html>
 
 <head>
+ 
+     <link href=" https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto+Slab:wght@700&family=Slabo+27px&display=swap" rel="stylesheet">
+
     <title>IDJ</title>
 
   <section id="home">
         <p class="magzineName">Data J Times</p>
         <ul class="header">
+
+            <a target="_blank" href="https://health.data.ny.gov/Health/Community-Health-Lyme-Disease-Incidence-Rate-per-1/6sxr-cqij">NY State Data</a>
+            <a target="_blank" href="https://www.cdc.gov/lyme/datasurveillance/surveillance-data.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Flyme%2Fdatasurveillance%2Frecent-surveillance-data.html">U.S. Data</a>
         </ul>
     </section>
 
@@ -32,15 +39,16 @@
         <p class="date">Published : <a href="#" style="text-decoration: none">16 August 2023</a></p>
 
         <!-- Lets add Image  -->
-
+</div>
         <section id="image1">
-            <img class="image"
+            <img class="image" style="width: 100" 
             img src="https://static.wixstatic.com/media/4f1b32_568e8b4781f5406eb48e1314b8f16442~mv2.jpg/v1/fill/w_1200,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/IMG-1479%20(1).jpg" alt="My Image">
             <p class="imageCaption"> Clark Reservation State Park, Jamesville, NY. Photo by: Greta Stuckey</p>
 
         </section>
 
 
+<div class="article-container">
         <!-- Lets begin article with first letter huge -->
         <section id="article">
             <p class="paragraph">
@@ -71,8 +79,8 @@ New York State has the second highest number of Lyme disease cases in the United
 
                 </br>
 <section id="image1">
-            <img class="image"
-            img src="https://static.wixstatic.com/media/4f1b32_935ec2af65424e73ac265eb95c2d2384~mv2.png/v1/fill/w_714,h_691,al_c,lg_1,q_90,enc_auto/61972p99.png"> The Tri-State area has the highest rate of Lyme disease in the U.S. Data Illustration by: Greta Stuckey</p>
+            <img class="image" 
+            img src="https://static.wixstatic.com/media/4f1b32_935ec2af65424e73ac265eb95c2d2384~mv2.png/v1/fill/w_714,h_691,al_c,lg_1,q_90,enc_auto/61972p99.png"><p class="imageCaption"> The Tri-State area has the highest rate of Lyme disease in the U.S. Data Illustration by: Greta Stuckey</p>
 
                <section>
             <p class="paragraph">After years of care and treatment, Scuderi ended up with $60,000 in medical debt. While people suffering from Lyme are often given doxycycline, an antibiotic prescription used to treat various tick-borne diseases, many don’t get it soon enough and therefore suffer from chronic symptoms. Scuderi said she was one of the lucky ones because she had good insurance and her husband had the job flexibility to take her to treatments. Yet, she still spent many years suffering alone. 
@@ -113,27 +121,49 @@ Beyond research, some doctors are working to incorporate more education on Lyme 
 </br>      </br>
 “I can tell you this disease is not rare,” Puc said at the press conference. “It’s growing and it can mimic a lot of other illnesses. This is one area where we really have to educate the providers in our area because there are a lot of people suffering from Lyme disease that don't even realize they have it.”
 </br>      </br>
-Lyme disease is a complicated disease that makes solutions difficult for researchers and doctors. The people most affected by Lyme disease are those who have been infected. In some cases, the tick-borne illness almost cost people their life. It is a disease that many people learn to live with for the rest of their lives as they suffer from chronic symptoms. It can be a lonely, painful and scary disease. Experts continue to study Lyme disease and track the illness across the country, hoping to one day find the breakthrough they need to help people. 
+Lyme disease is a complicated disease that makes solutions difficult for researchers and doctors. The people most affected by Lyme disease are those who have been infected. In some cases, the tick-borne illness almost cost people their life. It is a disease that many people learn to live with as they suffer from chronic symptoms. It can be a lonely, painful and scary disease. Experts continue to study Lyme disease and track the illness across the country, hoping to one day find the breakthrough they need to help people. 
 </br>  
     </div>
+</br>
+</br>
     <!-- Here article container class ends. -->
 
     <footer class="footerClass">
 
-        <section class="text-gray-600 body-font relative">
-  <div class="container px-5 py-24 mx-auto">
-      <h3 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Me About This Story</h3>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-    <div class="lg:w-1/2 md:w-2/3 small">
-      
-            <label for="name" class="leading-7 text-sm text-gray-500">Name</label>
-            <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-        <div class="p-2 w-1/2">
-          <div class="relative">
-          <div class="relative">
-            <label for="message" class="leading-7 text-sm text-gray-500">Message</label>
-            <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
-        <div class="p-2 w-full">
-          <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-5 mx-auto flex flex-wrap">
+    
+    <div class="flex flex-wrap md:-m-2 -m-1">
+      <div class="flex flex-wrap w-1/2">
+        <div class="md:p-2 p-1 w-1/2">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://images.pexels.com/photos/16914394/pexels-photo-16914394/free-photo-of-wood-nature-sand-summer.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+        </div>
+        <div class="md:p-2 p-1 w-1/2">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://images.pexels.com/photos/5064632/pexels-photo-5064632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+        </div>
+        <div class="md:p-2 p-1 w-full">
+          <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://images.pexels.com/photos/518400/pexels-photo-518400.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+        </div>
+      </div>
+      <div class="flex flex-wrap w-1/2">
+        <div class="md:p-2 p-1 w-full">
+          <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://images.pexels.com/photos/5712770/pexels-photo-5712770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+        </div>
+        <div class="md:p-2 p-1 w-1/2">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://images.pexels.com/photos/917510/pexels-photo-917510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+        </div>
+        <div class="md:p-2 p-1 w-1/2">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Bullseye_rash_linked_to_Lyme_disease.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<p class="paragraph">Graduate Study Research
+
+<p class="paragraph">MND 600 Intro to Data Journalism
+
+<p class="paragraph">© Greta Stuckey 2023
+</p>
     </footer>
 
